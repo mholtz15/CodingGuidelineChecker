@@ -27,11 +27,3 @@ def check_secure_coding_guidelines(code):
             issues.append((rule_name, start, end, match.group()))
     return issues
 ```
-<br>
-<br>
-In order for me to test if the checker worked, I inserted the following: 
-<br>
-```python
-def greet(name):
-print("Hello, " + name + "!")
-```
